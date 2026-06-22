@@ -18,7 +18,7 @@ const items = [
     body: "Without understanding how your body uses food, weight loss feels confusing.",
   },
   {
-    icon: TargetIcon,
+    icon: Target,
     title: "You give up too early",
     body: "Many people quit because their approach isn't sustainable for daily Nigerian life.",
   },
