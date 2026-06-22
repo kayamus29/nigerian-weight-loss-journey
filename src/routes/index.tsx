@@ -1,29 +1,69 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Nav } from "@/components/landing/Nav";
+import { Hero } from "@/components/landing/Hero";
+import { Problem } from "@/components/landing/Problem";
+import { Solution } from "@/components/landing/Solution";
+import { Inside } from "@/components/landing/Inside";
+import { Foods } from "@/components/landing/Foods";
+import { CalorieTable } from "@/components/landing/CalorieTable";
+import { Testimonials } from "@/components/landing/Testimonials";
+import { FAQ } from "@/components/landing/FAQ";
+import { FinalCTA } from "@/components/landing/FinalCTA";
+import { Footer } from "@/components/landing/Footer";
+import { StickyBuy } from "@/components/landing/StickyBuy";
+
+const TITLE = "How to Lose Weight Eating Nigerian Food — The Ebook";
+const DESCRIPTION =
+  "Lose weight without giving up rice, eba, beans or jollof. A practical guide to portion control, healthier habits and a 30-day plan built for Nigerian lifestyles.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Your App" },
-      { name: "description", content: "Replace this with a one-sentence description of your app." },
-      { property: "og:title", content: "Your App" },
-      { property: "og:description", content: "Replace this with a one-sentence description of your app." },
+      { title: TITLE },
+      { name: "description", content: DESCRIPTION },
+      { property: "og:title", content: TITLE },
+      { property: "og:description", content: DESCRIPTION },
+      { property: "og:type", content: "book" },
+      { property: "og:url", content: "/" },
+      { name: "twitter:title", content: TITLE },
+      { name: "twitter:description", content: DESCRIPTION },
+    ],
+    links: [{ rel: "canonical", href: "/" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Book",
+          name: "How to Lose Weight Eating Nigerian Food",
+          bookFormat: "https://schema.org/EBook",
+          inLanguage: "en",
+          about: "Healthy eating and weight loss for Nigerian lifestyles",
+          description: DESCRIPTION,
+        }),
+      },
     ],
   }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="min-h-screen bg-background text-foreground">
+      <Nav />
+      <main>
+        <Hero />
+        <Problem />
+        <Solution />
+        <Inside />
+        <Foods />
+        <CalorieTable />
+        <Testimonials />
+        <FAQ />
+        <FinalCTA />
+      </main>
+      <Footer />
+      <StickyBuy />
     </div>
   );
 }

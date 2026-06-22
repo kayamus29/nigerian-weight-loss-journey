@@ -1,4 +1,4 @@
-import { Brain, Frown, Utensils, TargetIcon } from "lucide-react";
+import { Brain, Frown, Utensils, Target } from "lucide-react";
 import { Reveal } from "./Reveal";
 
 const items = [
