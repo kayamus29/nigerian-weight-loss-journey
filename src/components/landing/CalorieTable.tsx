@@ -13,9 +13,9 @@ export function CalorieTable() {
     <section id="table" aria-labelledby="table-title" className="px-5 py-20 sm:px-8 lg:py-28">
       <div className="mx-auto max-w-4xl">
         <Reveal className="text-center">
-          <p className="mb-3 text-sm font-medium uppercase tracking-[0.18em] text-primary">A quick reference</p>
+          <p className="mb-3 text-sm font-medium uppercase tracking-[0.18em] text-primary">Quick guide</p>
           <h2 id="table-title" className="font-display text-3xl font-semibold leading-tight sm:text-4xl">
-            Sample calorie guide.
+            How much food gives how much energy.
           </h2>
         </Reveal>
 
