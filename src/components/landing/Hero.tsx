@@ -24,7 +24,7 @@ export function Hero() {
               href="#get"
               className="group inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3.5 text-base font-medium text-primary-foreground shadow-lift transition hover:translate-y-[-1px] hover:bg-primary/90"
             >
-              Get the Ebook Now
+              Get the book now
               <ArrowRight size={18} className="transition group-hover:translate-x-0.5" />
             </a>
             <a
