@@ -25,8 +25,8 @@ export function CalorieTable() {
               <thead className="bg-primary-soft/60">
                 <tr>
                   <th scope="col" className="px-5 py-4 text-sm font-semibold text-foreground sm:px-7">Food</th>
-                  <th scope="col" className="px-5 py-4 text-sm font-semibold text-foreground sm:px-7">Serving</th>
-                  <th scope="col" className="px-5 py-4 text-right text-sm font-semibold text-foreground sm:px-7">Approx. calories</th>
+                  <th scope="col" className="px-5 py-4 text-sm font-semibold text-foreground sm:px-7">How much</th>
+                  <th scope="col" className="px-5 py-4 text-right text-sm font-semibold text-foreground sm:px-7">Energy (about)</th>
                 </tr>
               </thead>
               <tbody>
