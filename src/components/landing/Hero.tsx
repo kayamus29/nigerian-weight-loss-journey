@@ -36,10 +36,10 @@ export function Hero() {
           </div>
           <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-muted-foreground">
             <span className="inline-flex items-center gap-2">
-              <Download size={16} className="text-primary" /> Instant download
+              <Download size={16} className="text-primary" /> Get it right away
             </span>
             <span className="inline-flex items-center gap-2">
-              <Smartphone size={16} className="text-primary" /> Phone, tablet & laptop
+              <Smartphone size={16} className="text-primary" /> Read on phone or laptop
             </span>
           </div>
         </div>
