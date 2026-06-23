@@ -44,7 +44,7 @@ export function CalorieTable() {
             </table>
           </div>
           <p className="mt-4 text-center text-xs text-muted-foreground">
-            Values are approximate and vary depending on preparation and ingredients.
+            These numbers are not exact. They change with how the food is cooked.
           </p>
         </Reveal>
       </div>
