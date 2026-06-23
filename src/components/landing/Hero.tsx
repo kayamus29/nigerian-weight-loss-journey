@@ -12,13 +12,12 @@ export function Hero() {
             For Nigerians, by Nigerians
           </span>
           <h1 className="font-display text-4xl font-semibold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
-            Lose weight without giving up{" "}
+            Lose weight. Still enjoy your{" "}
             <span className="text-primary">Nigerian food</span>.
           </h1>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-            You don't have to stop eating rice, eba, beans or jollof. Learn the simple
-            science of weight loss, portion control, and healthier eating habits that fit
-            Nigerian lifestyles.
+            You don't have to stop eating rice, eba, beans or jollof. This book shows you
+            how to eat the food you love and still lose weight — in simple, easy steps.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
             <a
