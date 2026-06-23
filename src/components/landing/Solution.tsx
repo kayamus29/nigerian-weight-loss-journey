@@ -3,12 +3,12 @@ import { Check } from "lucide-react";
 import { Reveal } from "./Reveal";
 
 const points = [
-  "How your body actually uses food",
-  "Why people gain weight in the first place",
-  "How to enjoy Nigerian foods responsibly",
-  "Portion control using simple, visual methods",
-  "Exercise that fits Nigerian lifestyles",
-  "A practical 30-day action plan",
+  "How your body uses the food you eat",
+  "Why people add weight in the first place",
+  "How to eat Nigerian food the smart way",
+  "Easy ways to know your right food size",
+  "Simple exercise you can do at home",
+  "A 30-day plan, step by step",
 ];
 
 export function Solution() {
