@@ -7,9 +7,9 @@ import { Reveal } from "./Reveal";
  * for each item below. Keep the same shape.
  */
 const testimonials = [
-  { quote: "Your feedback could appear here.", label: "Reader Testimonial" },
-  { quote: "Your feedback could appear here.", label: "Reader Testimonial" },
-  { quote: "Your feedback could appear here.", label: "Reader Testimonial" },
+  { quote: "Your story will show here soon.", label: "Reader story" },
+  { quote: "Your story will show here soon.", label: "Reader story" },
+  { quote: "Your story will show here soon.", label: "Reader story" },
 ];
 
 export function Testimonials() {
