@@ -14,7 +14,7 @@ import { StickyBuy } from "@/components/landing/StickyBuy";
 
 const TITLE = "How to Lose Weight Eating Nigerian Food — The Ebook";
 const DESCRIPTION =
-  "Lose weight without giving up rice, eba, beans or jollof. A practical guide to portion control, healthier habits and a 30-day plan built for Nigerian lifestyles.";
+  "Lose weight without leaving your rice, eba, beans or jollof. Simple steps, easy food sizes and a 30-day plan made for Nigerians.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
