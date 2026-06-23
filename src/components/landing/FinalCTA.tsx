@@ -11,22 +11,22 @@ export function FinalCTA() {
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(50%_50%_at_50%_50%,oklch(1_0_0/0.6)_0%,transparent_70%)]" />
       <div className="mx-auto max-w-3xl text-center">
         <h2 id="cta-title" className="font-display text-3xl font-semibold leading-[1.1] tracking-tight sm:text-4xl lg:text-5xl">
-          Ready to lose weight without giving up Nigerian food?
+          Ready to lose weight and still enjoy your food?
         </h2>
         <p className="mx-auto mt-5 max-w-xl text-base text-foreground/75 sm:text-lg">
-          Get practical advice, portion guides and healthier eating strategies — tailored
-          for Nigerians.
+          Get easy steps, the right food size, and better ways to eat — made for
+          Nigerians.
         </p>
         {/* TODO: replace href with your checkout URL (Paystack / Flutterwave / Gumroad). */}
         <a
           href="#get"
           className="mt-9 inline-flex items-center justify-center gap-2 rounded-full bg-primary px-8 py-4 text-base font-medium text-primary-foreground shadow-lift transition hover:translate-y-[-1px] hover:bg-primary/90 sm:text-lg"
         >
-          Get Instant Access
+          Get the book now
           <ArrowRight size={20} />
         </a>
         <p className="mt-4 text-sm text-foreground/60">
-          Instant download · Phone, tablet & laptop
+          Sent to you right away · Read on phone or laptop
         </p>
       </div>
     </section>
