@@ -31,7 +31,7 @@ export function Hero() {
               href="#inside"
               className="inline-flex items-center justify-center rounded-full px-5 py-3 text-base font-medium text-foreground/80 transition hover:text-primary"
             >
-              See what's inside
+              See what is inside
             </a>
           </div>
           <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-muted-foreground">
