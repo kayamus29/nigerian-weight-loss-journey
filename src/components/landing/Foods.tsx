@@ -32,13 +32,12 @@ export function Foods() {
     <section id="foods" aria-labelledby="foods-title" className="bg-secondary/60 px-5 py-20 sm:px-8 lg:py-28">
       <div className="mx-auto max-w-6xl">
         <Reveal className="max-w-2xl">
-          <p className="mb-3 text-sm font-medium uppercase tracking-[0.18em] text-primary">Featured foods</p>
+          <p className="mb-3 text-sm font-medium uppercase tracking-[0.18em] text-primary">Nigerian foods</p>
           <h2 id="foods-title" className="font-display text-3xl font-semibold leading-tight sm:text-4xl lg:text-5xl">
-            Nigerian meals, with the numbers.
+            Our food. The real numbers.
           </h2>
           <p className="mt-4 text-base text-muted-foreground sm:text-lg">
-            Tap or hover any dish to see an approximate calorie count and a healthy
-            serving size.
+            Touch any food to see how much energy it gives and how much you should eat.
           </p>
         </Reveal>
 

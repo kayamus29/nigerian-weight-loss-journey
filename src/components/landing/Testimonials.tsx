@@ -7,9 +7,9 @@ import { Reveal } from "./Reveal";
  * for each item below. Keep the same shape.
  */
 const testimonials = [
-  { quote: "Your feedback could appear here.", label: "Reader Testimonial" },
-  { quote: "Your feedback could appear here.", label: "Reader Testimonial" },
-  { quote: "Your feedback could appear here.", label: "Reader Testimonial" },
+  { quote: "Your story will show here soon.", label: "Reader story" },
+  { quote: "Your story will show here soon.", label: "Reader story" },
+  { quote: "Your story will show here soon.", label: "Reader story" },
 ];
 
 export function Testimonials() {
@@ -17,12 +17,12 @@ export function Testimonials() {
     <section id="testimonials" aria-labelledby="testimonials-title" className="bg-secondary/60 px-5 py-20 sm:px-8 lg:py-28">
       <div className="mx-auto max-w-6xl">
         <Reveal className="max-w-2xl">
-          <p className="mb-3 text-sm font-medium uppercase tracking-[0.18em] text-primary">Reader voices</p>
+          <p className="mb-3 text-sm font-medium uppercase tracking-[0.18em] text-primary">Reader stories</p>
           <h2 id="testimonials-title" className="font-display text-3xl font-semibold leading-tight sm:text-4xl">
-            What readers will say.
+            What readers are saying.
           </h2>
           <p className="mt-4 text-base text-muted-foreground">
-            Real feedback from real readers will live here once the book is in their hands.
+            Real words from real readers will show here once they have the book.
           </p>
         </Reveal>
 

@@ -13,9 +13,9 @@ export function CalorieTable() {
     <section id="table" aria-labelledby="table-title" className="px-5 py-20 sm:px-8 lg:py-28">
       <div className="mx-auto max-w-4xl">
         <Reveal className="text-center">
-          <p className="mb-3 text-sm font-medium uppercase tracking-[0.18em] text-primary">A quick reference</p>
+          <p className="mb-3 text-sm font-medium uppercase tracking-[0.18em] text-primary">Quick guide</p>
           <h2 id="table-title" className="font-display text-3xl font-semibold leading-tight sm:text-4xl">
-            Sample calorie guide.
+            How much food gives how much energy.
           </h2>
         </Reveal>
 
@@ -25,8 +25,8 @@ export function CalorieTable() {
               <thead className="bg-primary-soft/60">
                 <tr>
                   <th scope="col" className="px-5 py-4 text-sm font-semibold text-foreground sm:px-7">Food</th>
-                  <th scope="col" className="px-5 py-4 text-sm font-semibold text-foreground sm:px-7">Serving</th>
-                  <th scope="col" className="px-5 py-4 text-right text-sm font-semibold text-foreground sm:px-7">Approx. calories</th>
+                  <th scope="col" className="px-5 py-4 text-sm font-semibold text-foreground sm:px-7">How much</th>
+                  <th scope="col" className="px-5 py-4 text-right text-sm font-semibold text-foreground sm:px-7">Energy (about)</th>
                 </tr>
               </thead>
               <tbody>
@@ -44,7 +44,7 @@ export function CalorieTable() {
             </table>
           </div>
           <p className="mt-4 text-center text-xs text-muted-foreground">
-            Values are approximate and vary depending on preparation and ingredients.
+            These numbers are not exact. They change with how the food is cooked.
           </p>
         </Reveal>
       </div>

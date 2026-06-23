@@ -2,12 +2,12 @@ import { Briefcase, HeartPulse, Wheat, PieChart, Footprints, CalendarDays } from
 import { Reveal } from "./Reveal";
 
 const chapters = [
-  { n: "01", icon: Briefcase, title: "Why Nigerians Gain Weight", body: "Lifestyle, work patterns and food culture — and what they mean for your body." },
-  { n: "02", icon: HeartPulse, title: "How Your Body Uses Food", body: "A clear, friendly look at calories, metabolism and energy balance." },
-  { n: "03", icon: Wheat, title: "Nigerian Foods You Can Still Eat", body: "Rice, beans, eba, moi-moi and more — how to enjoy them without the guilt." },
-  { n: "04", icon: PieChart, title: "Portion Control", body: "Simple plate methods you can use with the dishes already in your kitchen." },
-  { n: "05", icon: Footprints, title: "Exercise That Fits Nigerian Lifestyles", body: "No gym required. Practical movement that works around your day." },
-  { n: "06", icon: CalendarDays, title: "30-Day Action Plan", body: "A week-by-week guide to put everything you've learned into practice." },
+  { n: "01", icon: Briefcase, title: "Why Nigerians Add Weight", body: "How our work, our life and our food affect the body — in plain words." },
+  { n: "02", icon: HeartPulse, title: "How Your Body Uses Food", body: "An easy look at calories and how your body burns the food you eat." },
+  { n: "03", icon: Wheat, title: "Nigerian Foods You Can Still Eat", body: "Rice, beans, eba, moi-moi and more — how to enjoy them without worry." },
+  { n: "04", icon: PieChart, title: "How Much To Eat", body: "A simple plate method you can use with the food already in your house." },
+  { n: "05", icon: Footprints, title: "Easy Exercise At Home", body: "No gym. No machine. Simple moves that fit your day." },
+  { n: "06", icon: CalendarDays, title: "Your 30-Day Plan", body: "A week-by-week guide that tells you exactly what to do." },
 ];
 
 export function Inside() {
@@ -15,7 +15,7 @@ export function Inside() {
     <section id="inside" aria-labelledby="inside-title" className="px-5 py-20 sm:px-8 lg:py-28">
       <div className="mx-auto max-w-6xl">
         <Reveal className="max-w-2xl">
-          <p className="mb-3 text-sm font-medium uppercase tracking-[0.18em] text-primary">What's inside</p>
+          <p className="mb-3 text-sm font-medium uppercase tracking-[0.18em] text-primary">What is inside</p>
           <h2 id="inside-title" className="font-display text-3xl font-semibold leading-tight sm:text-4xl lg:text-5xl">
             Six chapters that change how you eat.
           </h2>

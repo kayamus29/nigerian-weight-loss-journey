@@ -41,7 +41,7 @@ export function StickyBuy() {
         href="#get"
         className="flex w-full items-center justify-center gap-2 rounded-full bg-primary px-5 py-3.5 text-base font-medium text-primary-foreground shadow-lift"
       >
-        Get the Ebook · Instant Download
+        Get the book now · Sent right away
         <ArrowRight size={18} />
       </a>
     </div>

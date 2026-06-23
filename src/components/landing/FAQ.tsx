@@ -9,27 +9,27 @@ import { Reveal } from "./Reveal";
 const faqs = [
   {
     q: "Can I still eat rice?",
-    a: "Yes. Rice is part of the plan. The book shows you how much to eat, how often, and what to pair it with so it works for your goals.",
+    a: "Yes. Rice is part of the plan. The book shows you how much to eat, when to eat it, and what to eat it with so it works for you.",
   },
   {
     q: "Can I eat eba?",
-    a: "Yes. Eba, amala and pounded yam all have a place. You'll learn portion sizes and pairings that keep them in your week without slowing your progress.",
+    a: "Yes. Eba, amala and pounded yam all have their place. You will learn how much to eat and what to eat them with so they don't slow you down.",
   },
   {
     q: "Do I need a gym?",
-    a: "No. The exercise chapter focuses on movement you can do at home, on your way to work, or in your neighbourhood — no gym, no equipment required.",
+    a: "No. The book shows simple exercise you can do at home, on your way to work, or in your area. No gym, no machine.",
   },
   {
     q: "Will I have to stop eating Nigerian food?",
-    a: "Never. The whole point of this book is that you don't have to. You'll learn how to enjoy the foods you grew up with, responsibly.",
+    a: "No. That is the whole point of the book. You will learn how to eat the food you grew up with, the right way.",
   },
   {
-    q: "Is the ebook beginner friendly?",
-    a: "Yes. It's written in plain English, with no jargon. If this is your first time learning about nutrition, you'll feel comfortable from page one.",
+    q: "Is the book easy to read?",
+    a: "Yes. It is written in simple, plain English. No big grammar. If this is your first time, you will still understand it well.",
   },
   {
-    q: "How do I receive the ebook?",
-    a: "You'll get an instant download link after purchase. The PDF works on phone, tablet and laptop, and you can read it offline.",
+    q: "How will I get the book?",
+    a: "After you pay, you will get a link right away. You can read it on your phone, tablet or laptop. You can also read it without internet.",
   },
 ];
 
@@ -40,7 +40,7 @@ export function FAQ() {
         <Reveal className="text-center">
           <p className="mb-3 text-sm font-medium uppercase tracking-[0.18em] text-primary">Questions</p>
           <h2 id="faq-title" className="font-display text-3xl font-semibold leading-tight sm:text-4xl">
-            Frequently asked.
+            Things people often ask.
           </h2>
         </Reveal>
 

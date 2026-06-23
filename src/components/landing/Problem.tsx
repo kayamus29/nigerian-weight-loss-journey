@@ -4,23 +4,23 @@ import { Reveal } from "./Reveal";
 const items = [
   {
     icon: Frown,
-    title: "You stop eating your favorite foods",
-    body: "Most diets tell you to avoid rice, garri or pounded yam completely. That's unrealistic.",
+    title: "They tell you to stop your food",
+    body: "Most diets say no rice, no garri, no pounded yam. Nobody can do that for long.",
   },
   {
     icon: Utensils,
-    title: "You are hungry all the time",
-    body: "Extreme diets are difficult to maintain — and your body fights back.",
+    title: "You feel hungry all the time",
+    body: "When you eat too little, your body fights back. You become weak and tired.",
   },
   {
     icon: Brain,
-    title: "You don't understand your body",
-    body: "Without understanding how your body uses food, weight loss feels confusing.",
+    title: "Nobody explains your body to you",
+    body: "If you don't know how your body uses food, losing weight feels like guess work.",
   },
   {
     icon: Target,
-    title: "You give up too early",
-    body: "Many people quit because their approach isn't sustainable for daily Nigerian life.",
+    title: "You give up too soon",
+    body: "Many people stop after a few weeks because the plan does not fit Nigerian life.",
   },
 ];
 
@@ -31,11 +31,11 @@ export function Problem() {
         <Reveal className="max-w-2xl">
           <p className="mb-3 text-sm font-medium uppercase tracking-[0.18em] text-primary">The problem</p>
           <h2 id="problem-title" className="font-display text-3xl font-semibold leading-tight sm:text-4xl lg:text-5xl">
-            Why most diets fail.
+            Why most diets fail you.
           </h2>
           <p className="mt-4 text-base text-muted-foreground sm:text-lg">
-            If you've tried to lose weight before and stopped after a few weeks, the diet
-            was the problem — not you.
+            If you have tried to lose weight before and stopped after a short time, the
+            diet was the problem — not you.
           </p>
         </Reveal>
 

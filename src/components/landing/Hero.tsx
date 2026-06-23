@@ -12,35 +12,34 @@ export function Hero() {
             For Nigerians, by Nigerians
           </span>
           <h1 className="font-display text-4xl font-semibold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
-            Lose weight without giving up{" "}
+            Lose weight. Still enjoy your{" "}
             <span className="text-primary">Nigerian food</span>.
           </h1>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-            You don't have to stop eating rice, eba, beans or jollof. Learn the simple
-            science of weight loss, portion control, and healthier eating habits that fit
-            Nigerian lifestyles.
+            You don't have to stop eating rice, eba, beans or jollof. This book shows you
+            how to eat the food you love and still lose weight — in simple, easy steps.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
             <a
               href="#get"
               className="group inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3.5 text-base font-medium text-primary-foreground shadow-lift transition hover:translate-y-[-1px] hover:bg-primary/90"
             >
-              Get the Ebook Now
+              Get the book now
               <ArrowRight size={18} className="transition group-hover:translate-x-0.5" />
             </a>
             <a
               href="#inside"
               className="inline-flex items-center justify-center rounded-full px-5 py-3 text-base font-medium text-foreground/80 transition hover:text-primary"
             >
-              See what's inside
+              See what is inside
             </a>
           </div>
           <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-muted-foreground">
             <span className="inline-flex items-center gap-2">
-              <Download size={16} className="text-primary" /> Instant download
+              <Download size={16} className="text-primary" /> Get it right away
             </span>
             <span className="inline-flex items-center gap-2">
-              <Smartphone size={16} className="text-primary" /> Phone, tablet & laptop
+              <Smartphone size={16} className="text-primary" /> Read on phone or laptop
             </span>
           </div>
         </div>

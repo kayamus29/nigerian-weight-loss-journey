@@ -13,9 +13,8 @@ export function Footer() {
             Naija Healthy Eating
           </a>
           <p className="mt-4 max-w-md text-sm leading-relaxed text-muted-foreground">
-            This ebook is for educational purposes only. It is not intended to diagnose,
-            treat or cure any medical condition. Speak with a qualified medical
-            professional before making significant changes to your diet.
+            This book is for learning only. It is not for treating any sickness. Please
+            talk to a doctor before you make big changes to your food.
           </p>
         </div>
         <nav aria-label="Footer" className="grid grid-cols-2 gap-y-3 text-sm sm:grid-cols-3 md:justify-self-end md:text-right">
