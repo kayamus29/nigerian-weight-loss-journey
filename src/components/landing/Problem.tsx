@@ -31,11 +31,11 @@ export function Problem() {
         <Reveal className="max-w-2xl">
           <p className="mb-3 text-sm font-medium uppercase tracking-[0.18em] text-primary">The problem</p>
           <h2 id="problem-title" className="font-display text-3xl font-semibold leading-tight sm:text-4xl lg:text-5xl">
-            Why most diets fail.
+            Why most diets fail you.
           </h2>
           <p className="mt-4 text-base text-muted-foreground sm:text-lg">
-            If you've tried to lose weight before and stopped after a few weeks, the diet
-            was the problem — not you.
+            If you have tried to lose weight before and stopped after a short time, the
+            diet was the problem — not you.
           </p>
         </Reveal>
 
