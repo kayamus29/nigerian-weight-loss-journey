@@ -40,7 +40,7 @@ export function FAQ() {
         <Reveal className="text-center">
           <p className="mb-3 text-sm font-medium uppercase tracking-[0.18em] text-primary">Questions</p>
           <h2 id="faq-title" className="font-display text-3xl font-semibold leading-tight sm:text-4xl">
-            Frequently asked.
+            Things people often ask.
           </h2>
         </Reveal>
 
