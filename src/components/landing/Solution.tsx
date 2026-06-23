@@ -32,11 +32,11 @@ export function Solution() {
         <Reveal delay={120}>
           <p className="mb-3 text-sm font-medium uppercase tracking-[0.18em] text-primary">The solution</p>
           <h2 id="solution-title" className="font-display text-3xl font-semibold leading-tight sm:text-4xl lg:text-5xl">
-            A smarter way to lose weight.
+            A better way to lose weight.
           </h2>
           <p className="mt-4 max-w-lg text-base text-muted-foreground sm:text-lg">
-            This book teaches you the small, sustainable changes that move the needle —
-            without removing the meals you grew up loving.
+            This book shows you small changes that really work — and you keep eating
+            the food you grew up with.
           </p>
           <ul className="mt-7 grid gap-3">
             {points.map((p) => (
