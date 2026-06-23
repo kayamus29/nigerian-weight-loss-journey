@@ -15,7 +15,7 @@ export function Inside() {
     <section id="inside" aria-labelledby="inside-title" className="px-5 py-20 sm:px-8 lg:py-28">
       <div className="mx-auto max-w-6xl">
         <Reveal className="max-w-2xl">
-          <p className="mb-3 text-sm font-medium uppercase tracking-[0.18em] text-primary">What's inside</p>
+          <p className="mb-3 text-sm font-medium uppercase tracking-[0.18em] text-primary">What is inside</p>
           <h2 id="inside-title" className="font-display text-3xl font-semibold leading-tight sm:text-4xl lg:text-5xl">
             Six chapters that change how you eat.
           </h2>
