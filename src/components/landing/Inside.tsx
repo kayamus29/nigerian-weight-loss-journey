@@ -2,12 +2,12 @@ import { Briefcase, HeartPulse, Wheat, PieChart, Footprints, CalendarDays } from
 import { Reveal } from "./Reveal";
 
 const chapters = [
-  { n: "01", icon: Briefcase, title: "Why Nigerians Gain Weight", body: "Lifestyle, work patterns and food culture — and what they mean for your body." },
-  { n: "02", icon: HeartPulse, title: "How Your Body Uses Food", body: "A clear, friendly look at calories, metabolism and energy balance." },
-  { n: "03", icon: Wheat, title: "Nigerian Foods You Can Still Eat", body: "Rice, beans, eba, moi-moi and more — how to enjoy them without the guilt." },
-  { n: "04", icon: PieChart, title: "Portion Control", body: "Simple plate methods you can use with the dishes already in your kitchen." },
-  { n: "05", icon: Footprints, title: "Exercise That Fits Nigerian Lifestyles", body: "No gym required. Practical movement that works around your day." },
-  { n: "06", icon: CalendarDays, title: "30-Day Action Plan", body: "A week-by-week guide to put everything you've learned into practice." },
+  { n: "01", icon: Briefcase, title: "Why Nigerians Add Weight", body: "How our work, our life and our food affect the body — in plain words." },
+  { n: "02", icon: HeartPulse, title: "How Your Body Uses Food", body: "An easy look at calories and how your body burns the food you eat." },
+  { n: "03", icon: Wheat, title: "Nigerian Foods You Can Still Eat", body: "Rice, beans, eba, moi-moi and more — how to enjoy them without worry." },
+  { n: "04", icon: PieChart, title: "How Much To Eat", body: "A simple plate method you can use with the food already in your house." },
+  { n: "05", icon: Footprints, title: "Easy Exercise At Home", body: "No gym. No machine. Simple moves that fit your day." },
+  { n: "06", icon: CalendarDays, title: "Your 30-Day Plan", body: "A week-by-week guide that tells you exactly what to do." },
 ];
 
 export function Inside() {
