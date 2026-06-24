@@ -12,7 +12,7 @@ export function Hero() {
             For Nigerians, by Nigerians
           </span>
           <h1 className="font-display text-4xl font-semibold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
-            Lose weight. Still enjoy your{" "}
+            Lose weight. While&nbsp;enjoying&nbsp;your{" "}
             <span className="text-primary">Nigerian food</span>.
           </h1>
           <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
