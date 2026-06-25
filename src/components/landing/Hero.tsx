@@ -19,12 +19,22 @@ export function Hero() {
             You don't have to stop eating rice, eba, beans or jollof. This book shows you
             how to eat the food you love and still lose weight — in simple, easy steps.
           </p>
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+          <div className="mt-7 flex flex-wrap items-center gap-x-4 gap-y-2">
+            <span className="font-display text-3xl font-semibold text-foreground sm:text-4xl">
+              ₦4,995
+            </span>
+            <span className="text-lg text-muted-foreground line-through">₦10,000</span>
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-accent/15 px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-accent-foreground">
+              <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-accent" />
+              50% off · Promo ends soon
+            </span>
+          </div>
+          <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center">
             <a
               href="#get"
               className="group inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3.5 text-base font-medium text-primary-foreground shadow-lift transition hover:translate-y-[-1px] hover:bg-primary/90"
             >
-              Get the book now
+              Get the book for ₦4,995
               <ArrowRight size={18} className="transition group-hover:translate-x-0.5" />
             </a>
             <a

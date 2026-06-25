@@ -39,9 +39,19 @@ export function StickyBuy() {
     >
       <a
         href="#get"
-        className="flex w-full items-center justify-center gap-2 rounded-full bg-primary px-5 py-3.5 text-base font-medium text-primary-foreground shadow-lift"
+        className="flex w-full items-center justify-center gap-2 rounded-full bg-primary px-5 py-3 text-base font-medium text-primary-foreground shadow-lift"
       >
-        Get the book now · Sent right away
+        <span className="flex flex-col items-start leading-tight">
+          <span className="text-[10px] font-normal uppercase tracking-wide text-primary-foreground/75">
+            Promo ends soon
+          </span>
+          <span className="flex items-baseline gap-1.5">
+            Get for ₦4,995
+            <span className="text-xs font-normal text-primary-foreground/70 line-through">
+              ₦10,000
+            </span>
+          </span>
+        </span>
         <ArrowRight size={18} />
       </a>
     </div>
